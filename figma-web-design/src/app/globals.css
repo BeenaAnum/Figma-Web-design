@@ -110,7 +110,6 @@ button {
 }
 .posts {
   display: grid;
-  grid-template-columns: 1fr;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top: 2rem;
   padding: 0 9rem;
@@ -119,7 +118,7 @@ button {
 
 .post-card {
   padding: 2rem;
-  gap: 1rem;
+  gap: 2rem;
   background: white;
   border: 1px solid #ddd;
   margin-bottom: 4rem;
